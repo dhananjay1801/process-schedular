@@ -38,8 +38,8 @@ Visualization: Displays Gantt chart with process details.
 
 process_scheduler/
 │
-├── main.py                
-├── algorithms/
+├── main.py                    # Main entry point
+├── algorithms/                # All scheduling algorithms
 │   ├── fcfs.py
 │   ├── sjf_preemptive.py  
 │   ├── sjf_nonpreemptive.py
@@ -47,9 +47,11 @@ process_scheduler/
 │   ├── priority_nonpreemptive.py 
 │   ├── round_robin.py     
 │
-├── utils/
-│   └── process.py
-│   ├── gantt_chart.py 
+├── utils/                     # Utility modules
+│   ├── process.py
+│   ├── gantt_chart.py
+│
+├── README.md                  # Documentation
 
 > Conclusion
 This project provides a clear simulation and visualization of CPU scheduling algorithms, including FCFS, SJF, Priority Scheduling, and Round Robin. Through a user-friendly GUI and detailed Gantt chart visualization, it bridges the gap between theory and practical implementation. It serves as an effective tool for understanding and demonstrating scheduling concepts in an intuitive and visually appealing way.
