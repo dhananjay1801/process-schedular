@@ -1,4 +1,4 @@
-> Process Scheduling Algorithms with Gantt Chart Visualization
+Process Scheduling Algorithms with Gantt Chart Visualization
 
 > How to Run
 1. Navigate to the project folder in your terminal or command prompt.
