@@ -2,7 +2,7 @@ Process Scheduling Algorithms with Gantt Chart Visualization
 
 How to Run
 > 1. Navigate to the project folder in your terminal or command prompt.
-> 2. Run the command: python main.py.
+> 2. Run the command: python main.py (PyQt5 and matplotlib modules required).
 > 3. Enter process details in the GUI and select the scheduling algorithm.
 > 4. View the Gantt chart and results.
 
