@@ -51,7 +51,7 @@ Project Structure
 > ├── utils/<br/>
 > │   ├── process.py<br/>
 > │   ├── gantt_chart.py<br/>
-> │
+> │<br/>
 > ├── README.md<br/>
 
 Conclusion
