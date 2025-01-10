@@ -16,23 +16,23 @@ Introduction
 > The GUI allows users to input processes and visualize their scheduling using a color-coded Gantt chart.
 
 Expected Output
-> A Gantt chart showcasing process execution order, start and end times, and process IDs, with borders for clarity.
+> A Gantt chart showcasing process execution order, start and end times, and process IDs.
 
 Requirements
 > Data Structures:
 >   List: For process storage.
 >   Queue: For Round Robin.
 >   Priority Queue: For SJF and Priority Scheduling.
->   Dictionary: For color mapping.
+>   Dictionary: For color mapping.<br/>
 > Software:
 >   Python 3.x
 >   Matplotlib
 >   PyQt5
 
 Methodology
-> Input: Add processes (arrival & burst time). Select a scheduling algorithm.
-> Execution: Simulates process execution.
-> Visualization: Displays Gantt chart with process details.
+> Input: Add processes (arrival & burst time). Select a scheduling algorithm.<br/>
+> Execution: Simulates process execution.<br/>
+> Visualization: Displays Gantt chart with process details.<br/>
 
 Project Structure
 
