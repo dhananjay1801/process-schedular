@@ -7,13 +7,12 @@ How to Run
 > 4. View the Gantt chart and results.
 
 Introduction
-> This project implements multiple CPU scheduling algorithms with a Gantt chart visualization using Python. Algorithms include:
-
+> This project implements multiple CPU scheduling algorithms with a Gantt chart visualization using Python.
+> Algorithms include:
 > First-Come-First-Serve (FCFS)
-> Shortest Job First (SJF)
+> Shortest Job First (SJF Preemptive & Non-Preemptive)
 > Priority Scheduling (Preemptive & Non-Preemptive)
 > Round Robin (RR)
-> The GUI allows users to input processes and visualize their scheduling using a color-coded Gantt chart.
 
 Expected Output
 > A Gantt chart showcasing process execution order, start and end times, and process IDs.
@@ -21,16 +20,16 @@ Expected Output
 Requirements
 > Data Structures:
 >   List: For process storage.
->   Queue: For Round Robin.
+>   Circular Queue: For Round Robin.
 >   Priority Queue: For SJF and Priority Scheduling.
 >   Dictionary: For color mapping.<br/>
 > Software:
->   Python 3.x
+>   Python 3.13.1
 >   Matplotlib
 >   PyQt5
 
 Methodology
-> Input: Add processes (arrival & burst time). Select a scheduling algorithm.<br/>
+> Input: Add processes (arrival, burst time & priority). Select a scheduling algorithm.<br/>
 > Execution: Simulates process execution.<br/>
 > Visualization: Displays Gantt chart with process details.<br/>
 
