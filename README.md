@@ -2,9 +2,16 @@
 
 ### How to Run
 1. Navigate to the project folder in your terminal or command prompt.
-2. Run the command: `python main.py` (PyQt5 and matplotlib modules required).
-3. Enter process details in the GUI and select the desired scheduling algorithm.
-4. View the generated Gantt chart and performance results.
+2. Install packages:
+```
+pip install -r requirements.txt
+```
+3. Run the command:
+```
+python main.py
+```
+4. Enter process details in the GUI and select the desired scheduling algorithm.
+5. View the generated Gantt chart and performance results.
 
 ---
 
