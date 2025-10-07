@@ -3,13 +3,13 @@
 ### How to Run
 1. Navigate to the project folder in your terminal or command prompt.
 2. Install packages:
-```
-pip install -r requirements.txt
-```
+  ```
+  pip install -r requirements.txt
+  ```
 3. Run the command:
-```
-python main.py
-```
+  ```
+  python main.py
+  ```
 4. Enter process details in the GUI and select the desired scheduling algorithm.
 5. View the generated Gantt chart and performance results.
 
